@@ -1,94 +1,169 @@
 <!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>قناة عبدالرحمن</title>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منصة البرمجة والحجز — موقع احترافي</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="container">
+        <div class="brand">قناة البرمجة</div>
+        <ul>
+          <li><a href="#hero">الرئيسية</a></li>
+          <li><a href="#about">من نحن</a></li>
+          <li><a href="#features">خدماتنا</a></li>
+          <li><a href="#booking">حجز موعد</a></li>
+          <li><a href="#videos">فيديوهات</a></li>
+          <li><a href="#cta">انضم للقناة</a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <!-- HERO WITH VIDEO BACKGROUND -->
+    <section class="hero" id="hero">
+      <video autoplay muted loop>
+        <source src="vs.mp4" type="video/mp4" />
+        متصفحك لا يدعم الفيديو
+      </video>
+      <div class="hero-content">
+        <h1>مرحباً في قناتنا — تعلم البرمجة 🚀</h1>
+        <p>كورسات، شروحات، مشاريع، وحجز مواعيد بسهولة.</p>
+        <a href="#booking" class="btn primary">احجز موعدك الآن</a>
+        <a href="#cta" class="btn secondary">انضم للقناة</a>
+      </div>
+      <img
+        src="f52c16fa-fd3c-49b8-86ed-09066511b17a.jpg"
+        alt="Illustration"
+        class="hero-img"
+      />
+    </section>
 
-</head>
-
-<body>
-
-    <header>
-
-       
-        <img src="channel.jpg" alt="Channel Logo">
-
-       
-        <h1>Software Engineering | تعلم البرمجة </h1>
-
-        
-        <p>مرحباً بك في مساحتك الخاصة لعالم البرمجة والتقنية 🚀
-هنا ستجد:
-🔹 شروحات مبسطة (C++, Java, Python)
-🔹 كورسات ودورات من مصادر موثوقة
-🔹 أفكار مشاريع تخرج وفرص عمل أونلاين
-🔹 مسابقات، قصص تحفيزية، وأخبار الذكاء الاصطناعي
-🔹 نصائح لطلاب هندسة البرمجيات وتطوير الذات 🌿
-
-كل سطر كود تكتبه اليوم هو طوبة في طريق مستقبلك ✨
-</p>
-
-       
-        <a href="https://whatsapp.com/channel/0029Vb6JWKo1t90hGoqhzj2W" class="btn">انضم الينا الآن</a>
-
-    </header>
-
-    <div class="section">
-        <h2>من أنا؟</h2>
-        <p class="about">
-          
-           أنا عبدالرحمن، مهندس برمجيات وصانع محتوى،
-            أقدّم فيديوهات تعليمية عن البرمجة، 
-            تطوير الذات، ونصائح عملية للطلاب. 
-            أعمل مع سلوان لتقديم محتوى 
-            واضح وبسيط يساعد الشباب على تطوير مهاراتهم وتحقيق أهدافهم بسهولة وفعالية.
-        </p>
-    </div>
-
-    <div class="section">
-        <h2>آخر الفيديوهات</h2>
-
-        <div class="videos">
-
-           
-            <div class="card">
-              
-                <img src="c++.jpg" alt="">
-              
-                <h3>عنوان الفيديو الأول</h3>
-              
-                <a href="v.mp4" class="btn" style="margin-top:10px;">مشاهدة</a>
-            </div>
-
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2>من نحن</h2>
+      <div class="about">
+        <img src="pexels-kevin-ku-92347-577585.jpg" alt="Profile" />
+        <div class="text">
+          <p>
+            أنا عبدالرحمن، مهندس برمجيات وصانع محتوى — أقدّم شروحات برمجة،
+            نصائح، ومشاريع عملية.
+          </p>
+          <p>مع سلوان نهدف إلى تمكين الشباب في مجال البرمجة والتقنية.</p>
         </div>
-    </div>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>تواصل معي</h2>
-
-        <div class="socials">
-
-           
-            <a href="https://whatsapp.com/dl/">واتساب</a>
-
-            <a href="https://www.facebook.com/abdulrhman.ahmad.271082?mibextid=ZbWKwL">فيسبوك</a>
-
-            
-            <a href="##">تيليغرام</a>
-
-           
-            <a href="###">إنستغرام</a>
-
+    <!-- SERVICES -->
+    <section class="section" id="features">
+      <h2>خدماتنا</h2>
+      <div class="features">
+        <div class="card">
+          <img src="pexels-fauxels-3182752.jpg" alt="" />
+          <h3>استشارة تقنية</h3>
+          <p>نصائح ومراجعة مشاريع برمجية لأي مستوى.</p>
         </div>
+        <div class="card">
+          <img src="pexels-goumbik-574071.jpg" alt="" />
+          <h3>تصميم مواقع</h3>
+          <p>بناء وتصميم واجهات احترافية وسريعة الاستجابة.</p>
+        </div>
+        <div class="card">
+          <img src="pexels-mikhail-nilov-7988747.jpg" alt="" />
+          <h3>صيانة أنظمة</h3>
+          <p>دعم، تحسين وأمن للنظم، سواء ويب أو برمجيات.</p>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <!-- BOOKING FORM -->
+    <section class="section booking" id="booking">
+      <h2>احجز موعدك الآن</h2>
+      <form id="bookingForm">
+        <label>الاسم الكامل</label>
+        <input type="text" id="name" placeholder="أسمك" required />
+        <label>البريد الإلكتروني</label>
+        <input type="email" id="email" placeholder="بريدك" required />
+        <label>تاريخ الموعد</label>
+        <input type="date" id="date" required />
+        <label>الوقت</label>
+        <input type="time" id="time" required />
+        <label>نوع الخدمة</label>
+        <select id="service">
+          <option>استشارة تقنية</option>
+          <option>تصميم موقع</option>
+          <option>صيانة نظام</option>
+        </select>
+        <label>ملاحظات إضافية</label>
+        <textarea id="notes" rows="4" placeholder="ملاحظاتك..."></textarea>
+        <button type="submit">أرسل الطلب</button>
+      </form>
+    </section>
 
-    <footer>
-        جميع الحقوق محفوظة © عبدالرحمن – 2025
-    </footer>
+    <!-- VIDEOS -->
+    <section class="section" id="videos">
+      <h2>آخر الفيديوهات</h2>
+      <div class="videos">
+        <div class="card">
+          <img src="assets/video1.jpg" alt="" />
+          <h3>شرح C++ – الحلقة 1</h3>
+        </div>
+        <div class="card">
+          <img src="assets/video2.jpg" alt="" />
+          <h3>تصميم واجهة احترافية</h3>
+        </div>
+        <div class="card">
+          <img src="assets/video3.jpg" alt="" />
+          <h3>فكرة مشروع تخرج</h3>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <!-- CTA JOIN -->
+    <section class="cta" id="cta">
+      <video autoplay muted loop>
+        <source src="vc.mp4" type="video/mp4" />
+        متصفحك لا يدعم الفيديو
+      </video>
+      <h2>انضم لقناتنا الآن</h2>
+      <p>كن جزء من مجتمعنا وابدأ رحلتك في البرمجة معنا.</p>
+      <a
+        href="https://whatsapp.com/channel/0029Vb6JWKo1t90hGoqhzj2W"
+        target="_blank"
+        >انضم الآن</a
+      >
+    </section>
+
+    <!-- FOOTER -->
+    <footer>&copy; 2025 عبدالرحمن & سلوان — كل الحقوق محفوظة.</footer>
+
+    <script>
+      document
+        .getElementById("bookingForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          let name = document.getElementById("name").value;
+          let email = document.getElementById("email").value;
+          let date = document.getElementById("date").value;
+          let time = document.getElementById("time").value;
+          let service = document.getElementById("service").value;
+          let notes = document.getElementById("notes").value;
+
+          let message = `مرحبا عبدالرحمن,%0Aلدي طلب حجز:%0A- الاسم: ${name}%0A- البريد: ${email}%0A- التاريخ: ${date}%0A- الوقت: ${time}%0A- الخدمة: ${service}%0A- ملاحظات: ${notes}`;
+
+          // الرقم الذي وضعته: 0128467955
+          let whatsappURL = `https://wa.me/249128467955?text=${message}`;
+          window.open(whatsappURL, "_blank");
+
+          this.reset();
+        });
+    </script>
+  </body>
 </html>
